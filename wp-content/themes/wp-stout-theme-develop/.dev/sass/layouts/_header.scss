@@ -1,0 +1,71 @@
+@import "video-header";
+
+.site-header {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+
+	body.admin-bar & {
+		top: 32px;
+
+		@media only screen and (max-width: 782px) {
+			top: 46px;
+		}
+	}
+}
+
+.site-header-wrapper {
+	@include container($container-size);
+
+	font-size: 1.125em;
+	position: relative;
+	z-index: 10;
+}
+
+.site-title-wrapper {
+	@media #{$medium-up} {
+		float: left;
+	}
+
+	@media #{$large-up} {
+		@include span(3);
+	}
+}
+
+.custom-logo {
+	margin: 0;
+	height: 100px;
+	width: auto;
+	max-width: none;
+	padding: 20px 0 20px 15px;
+	display: block;
+
+	@media #{$large-up} {
+		padding: 10px 0 10px 15px;
+	}
+}
+
+.site-title {
+	font-size: 1.333em;
+	height: 100px;
+	line-height: 100px;
+	margin: 0 0 0 1.25em;
+	text-transform: uppercase;
+	vertical-align: middle;
+
+	@media #{$large-up} {
+		display: table-cell;
+		line-height: 1.333em;
+	}
+
+	@media #{$small-only} {
+		display: table-cell;
+		line-height: 1.333em;
+		padding: 0 65px 0 15px;
+	}
+}
+
+.site-description {
+	display: none;
+}

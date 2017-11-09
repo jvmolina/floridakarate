@@ -1,0 +1,22 @@
+ul,
+ol {
+	margin: 0 0 $base-spacing;
+
+	ul,
+	ol {
+		margin: 0;
+	}
+}
+
+dl {
+	margin: 0 0 $base-spacing;
+}
+
+dt {
+	font-weight: 700;
+	margin: 0;
+}
+
+dd {
+	margin: 0 0 $small-spacing;
+}

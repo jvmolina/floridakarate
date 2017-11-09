@@ -1,0 +1,82 @@
+.hero {
+	color: $background-color;
+	min-height: 300px;
+	width: 100%;
+	padding-top: 100px;
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+
+	#wp-custom-header {
+
+		img {
+			display: none;
+		}
+	}
+
+	.hero-inner {
+		@include container($container-size);
+
+		margin: 0 auto;
+		padding: 121px 2em;
+
+		@media screen and (max-width: 900px) {
+			max-width: none;
+		}
+	}
+
+	.page-title {
+		margin-bottom: 0;
+	}
+
+	.widget {
+		margin-bottom: 1em;
+		padding-right: 30%;
+		font-size: 2em;
+		font-weight: 300;
+
+		&:last-child {
+			margin-bottom: 0;
+		}
+
+		@media screen and (max-width: 900px) {
+			font-size: 1.5em;
+			padding-right: 0;
+		}
+
+		.widget-title {
+			font-size: 4rem;
+			margin-bottom: .1rem;
+
+			@media screen and (min-width: $medium-screen) {
+				font-size: 7rem;
+			}
+		}
+
+		ul, ol {
+			padding-left: 0;
+
+			li {
+				list-style: none;
+			}
+		}
+
+		input, select, textarea {
+			color: $base-font-color;
+		}
+	}
+
+	label, input, select, textarea {
+		display: inline;
+		width: auto;
+	}
+}
+
+@media #{$webkit} {
+
+	html :lang(hi) h2.widget-title,
+	html :lang(mr) h2.widget-title {
+		font-family: -webkit-body;
+	}
+
+}

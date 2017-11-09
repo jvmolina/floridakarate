@@ -1,0 +1,255 @@
+
+.pizzatime-image-container {
+/*	position: absolute;*/
+	left: 0;
+	top: 0;
+	width: inherit;
+}
+
+img.pizzatime-image, img.pizzatime-image-extra {
+	display: block;
+	height: auto;
+	max-width: 100%;
+	position:absolute;
+}
+img.pizzatime-image {
+	border: 0 none;
+}
+.pizzatime-hidden {
+	display:none;
+}
+
+.pizzatime-info {
+	padding-top: 100%;
+	text-align:center;	
+}
+
+.pizzatime-rad-0 > input,
+.pizzatime-rad-1 > input,
+.pizzatime-rad-2 > input,
+.pizzatime-rad-3 > input {
+    visibility: hidden;
+    position: relative;
+}
+
+
+.pizzatime-rad-0 > i,
+.pizzatime-rad-1 > i,
+.pizzatime-rad-2 > i,
+.pizzatime-rad-3 > i {
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    transition: 0.2s;
+    border-radius: 50%;
+    box-shadow: inset 0 0 0 7px #f0f0f0;
+    border: 1px solid gray;
+    margin-left: 5px;
+}
+
+.pizzatime-rad-0 > i {
+    background-image: url("../../images/radio0.png");
+}
+
+.pizzatime-rad-1 > i {
+    background-image: url("../../images/radio1.png");
+}
+
+.pizzatime-rad-2 > i {
+    background-image: url("../../images/radio2.png");
+}
+
+.pizzatime-rad-3 > i {
+    background-image: url("../../images/radio3.png");
+}
+
+.pizzatime-rad-0:hover > i,
+.pizzatime-rad-1:hover > i,
+.pizzatime-rad-2:hover > i,
+.pizzatime-rad-3:hover > i {
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+}
+
+.pizzatime-rad-0 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("../../images/radio0-selected.png");
+    border: 1px solid #ED6B1C;
+}
+
+.pizzatime-rad-1 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("../../images/radio1-selected.png");
+    border: 1px solid #ED6B1C;
+}
+
+.pizzatime-rad-2 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("../../images/radio2-selected.png");
+    border: 1px solid #ED6B1C;
+}
+
+.pizzatime-rad-3 > input:checked + i {
+    box-shadow: inset 0 0 0 3px #f0f0f0;
+    background-image: url("../../images/radio3-selected.png");
+    border: 1px solid #ED6B1C;
+}
+
+
+
+.pizzatime-rad-0 > input, .pizzatime-rad-1 > input, .pizzatime-rad-2 > input, .pizzatime-rad-3 > input {
+    position: relative;
+    visibility: hidden;
+}
+
+
+
+.pizzatime-invisible {
+	visibility:hidden;
+}
+
+.pizzatime-hidden {
+	display:none;
+}
+
+.pizzatime-button-label {
+	margin-left:10px;
+}
+
+.pizzatime-ingredient-name {
+	font-weight:bold;
+}
+.pizzatime-ingredient-description, .pizzatime-popup-ingredient-description {
+	color:gray;
+	font-size:small;
+}
+
+.pizzatime-ingredient-left {
+	display: inline-block;
+	float: left;
+	width:25%;
+	text-align: center;
+}
+
+.pizzatime-ingredient-right {
+	display: inline-block;
+	float: left;
+	width:75%;
+}
+
+img.pizzatime-preview {
+	max-width:75px;
+	max-height:75px;
+}
+
+p.pizzatime-ingredient-name, p.pizzatime-ingredient-description {
+	margin: 5px !important;
+}
+
+
+.pizzatime-ingredient {
+	border-bottom: 1px solid lightgray;
+	display: inline-block;
+	padding-bottom: 10px;
+	width: 100%;
+}
+
+.pizzatime-label {
+	margin: 0;
+	padding: 0;
+	width: 35px;		
+	float: left;
+
+}
+.pizzatime-ingredient-list {
+	padding:0 !important;
+}
+
+div.pizzatime-ingredient-list .pizzatime-ingredient:last-child {
+    border-bottom: none;
+}
+
+.pizzatime-label.pizzatime-rad-3 {
+	margin-right:5px;
+}
+.pizzatime-fieldset {
+    margin-top: 20px;
+}
+
+#pizzatime-accordion .ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.ui-accordion-content-active {
+    padding: 0;
+}
+.pizzatime .ui-dialog-titlebar.ui-corner-all.ui-widget-header.ui-helper-clearfix.ui-draggable-handle {
+	line-height:1px;
+}
+
+.pizzatime-button-label.ui-button.ui-widget.ui-checkboxradio-radio-label.ui-controlgroup-item {
+    padding: 5px;
+}
+
+.ui-button.ui-corner-all.ui-widget.ui-button-icon-only {
+    float: right;
+}
+
+.pizzatime-ingredient-list.ui-accordion-content.ui-corner-bottom.ui-helper-reset.ui-widget-content.accordion-content-active {
+    border: 1px solid lightgray;
+}
+
+.pizzatime-desc-image {
+	cursor:pointer;
+	margin-top:10px;
+}
+
+.pizzatime-quantity {
+	display:inline-block;
+	margin-right:5px;
+}
+
+.pizzatime-button {
+	vertical-align:top;
+}
+/*#pizzatime-qty, button.pizzatime-button {
+	height:35px;
+}*/
+
+#pizzatime-qty, #pizzatime-qty {
+	font-size: 1em;
+	line-height: 2em;
+	height: 3em;
+	vertical-align:top !important;
+}
+button.pizzatime-button {
+	font-size: 1em;
+	line-height: 2em;
+	height: 2.7em;
+	vertical-align:top !important;
+}
+
+#pizzatime-accordion h3 {
+    cursor: pointer;
+    line-height: 1.5em;
+    margin: 0;
+    padding: 0;
+}
+
+.ui-dialog {
+	z-index:12000 !important;
+}
+
+div.product{
+	overflow: hidden;
+}
+
+
+
+#pizzatime-accordion.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	left: 95%;
+}
+
+form.variations_form.cart div.woocommerce-variation-add-to-cart {
+	margin-top:10px;
+	text-align:center;
+}
+form.variations_form.cart div.woocommerce-variation-add-to-cart div.quantity.pizzatime-quantity{
+	float: inherit;
+}

@@ -1,0 +1,15 @@
+@import "common/customizer";
+@import "common/variables";
+@import "common/mixins";
+@import "common/normalize";
+
+@import "components/typography";
+@import "components/forms";
+@import "components/layout";
+@import "components/buttons";
+@import "components/tables";
+@import "components/wp-classes";
+
+body {
+	margin: 20px;
+}

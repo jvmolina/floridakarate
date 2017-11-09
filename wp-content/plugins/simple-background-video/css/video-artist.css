@@ -1,0 +1,130 @@
+.cuadro-video {
+    position: relative;
+    max-width: 400px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    top: 10px;
+}
+select.video-yvn {
+    display: block;
+}
+
+  
+.video-metabox {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.video-metabox iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.help-video, .help-video-y, .help-video-v {
+    cursor: pointer;
+} 
+
+div#metabox_url_video .help_y p {
+    margin: 0;
+}
+
+span.what_ZD {
+    padding-left: 11px;
+    display: block;
+    font-size: 11px;
+}
+
+select.image-sn {
+    margin-top: 7px;
+}
+.custom-img-container_img, .custom-img-container-photo_img {
+    max-width: 255px;
+    max-height: auto;
+    margin: 0;
+}
+
+.custom-img-container_img img {
+    width: 100%;
+}
+
+
+.video_ZD, .title_ZD, .image_ZD {
+    font-weight: 800;
+    margin-left: 3px;
+    display: block;
+}
+
+ select.title-ZD {
+    display: block;
+}
+
+.title_ZD_caja {
+    margin-top: 10px;
+}
+
+.help_y {
+    margin-top: 5px;
+    margin-left: 7px;
+}
+
+.help-video-y {
+    margin-left: 5px;
+}
+
+.help-y-v {
+    display: none;
+}
+
+.help-img {
+    display: none;
+}
+
+.back-help {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    background: #000;
+    z-index: 10000;
+    opacity: .8;
+}
+
+.help-img img {
+    position: fixed;
+    top: 46px;
+    z-index: 10001;
+    left: 1%; 
+    max-width: 95%;
+    max-height: 100%;
+    border-style: solid;
+    border-width: 7px;
+}
+
+.custom-img-container video, .custom-img-container-photo video {
+    transition: .1s;
+}
+
+.custom-img-container, .custom-img-container-photo {
+    max-width: 255px;
+    max-height: 143px;
+    margin: 0;
+}
+
+
+#metabox_url_video select {
+    display: block;
+    top: 10px;
+    margin-bottom: 10px;
+}
+
+a.upload-custom-img.button-primary.button-large.hidden, a.delete-custom-img.button-primary.button-large.hidden {
+    display: none;
+}
+
+a.upload-custom-img_img.button-primary.button-large.hidden, a.delete-custom-img_img.button-primary.button-large.hidden {
+    display: none;
+}

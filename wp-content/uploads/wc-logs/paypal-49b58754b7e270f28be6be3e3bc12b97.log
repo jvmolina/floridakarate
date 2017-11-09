@@ -1,0 +1,76 @@
+2017-07-18T10:22:13+00:00 INFO Generating payment form for order 51. Notify URL: http://localhost/wordpress/index.php/wc-api/WC_Gateway_Paypal/
+2017-07-18T10:22:13+00:00 INFO PayPal Request Args for order 51: cmd=_cart&business=joselyn_0501%40hotmail.com&no_note=1&currency_code=USD&charset=utf-8&rm=1&upload=1&return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Ffinalizar-comprar%2Forder-received%2F51%3Fkey%3Dwc_order_596e35b0a4b7b%26utm_nooverride%3D1&cancel_return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcarro%2F%3Fcancel_order%3Dtrue%26order%3Dwc_order_596e35b0a4b7b%26order_id%3D51%26redirect%26_wpnonce%3D63376cebdf&page_style=&image_url=&paymentaction=sale&bn=WooThemes_Cart&invoice=WC-51&custom=%7B%22order_id%22%3A51%2C%22order_key%22%3A%22wc_order_596e35b0a4b7b%22%7D&notify_url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fwc-api%2FWC_Gateway_Paypal%2F&first_name=eded&last_name=eded&address1=edededed&address2=ededed&city=ededed&state=ededed&zip=1111111&country=VE&email=joselynmolina11%40gmail.com&night_phone_b=111111111111111111111&no_shipping=1&item_name_1=Essential+x+1&quantity_1=1&amount_1=303&item_number_1=51
+2017-07-27T13:19:27+00:00 INFO Generating payment form for order 51. Notify URL: http://localhost/wordpress/index.php/wc-api/WC_Gateway_Paypal/
+2017-07-27T13:19:27+00:00 INFO PayPal Request Args for order 51: cmd=_cart&business=joselyn_0501%40hotmail.com&no_note=1&currency_code=USD&charset=utf-8&rm=1&upload=1&return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcheckout%2Forder-received%2F51%3Fkey%3Dwc_order_596e35b0a4b7b%26utm_nooverride%3D1&cancel_return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcarro%2F%3Fcancel_order%3Dtrue%26order%3Dwc_order_596e35b0a4b7b%26order_id%3D51%26redirect%26_wpnonce%3Dbb8f76e9d2&page_style=&image_url=&paymentaction=sale&bn=WooThemes_Cart&invoice=WC-51&custom=%7B%22order_id%22%3A51%2C%22order_key%22%3A%22wc_order_596e35b0a4b7b%22%7D&notify_url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fwc-api%2FWC_Gateway_Paypal%2F&first_name=eded&last_name=eded&address1=edededed&address2=ededed&city=ededed&state=ededed&zip=1111111&country=VE&email=joselynmolina11%40gmail.com&night_phone_b=111111111111111111111&no_shipping=1&tax_cart=0.00&discount_amount_cart=606.00&item_name_1=Essential&quantity_1=1&amount_1=909&item_number_1=&item_name_2=Remaining+Balance&quantity_2=1&amount_2=606&item_number_2=
+2017-07-27T13:58:08+00:00 INFO Generating payment form for order 66. Notify URL: http://localhost/wordpress/index.php/wc-api/WC_Gateway_Paypal/
+2017-07-27T13:58:08+00:00 INFO PayPal Request Args for order 66: cmd=_cart&business=joselyn_0501%40hotmail.com&no_note=1&currency_code=USD&charset=utf-8&rm=1&upload=1&return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcheckout%2Forder-received%2F66%3Fkey%3Dwc_order_597a3d343020f%26utm_nooverride%3D1&cancel_return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcarro%2F%3Fcancel_order%3Dtrue%26order%3Dwc_order_597a3d343020f%26order_id%3D66%26redirect%26_wpnonce%3Dbb8f76e9d2&page_style=&image_url=&paymentaction=sale&bn=WooThemes_Cart&invoice=WC-66&custom=%7B%22order_id%22%3A66%2C%22order_key%22%3A%22wc_order_597a3d343020f%22%7D&notify_url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fwc-api%2FWC_Gateway_Paypal%2F&first_name=eded&last_name=eded&address1=edededed&address2=ededed&city=ededed&state=ededed&zip=1111111&country=VE&email=joselynmolina11%40gmail.com&night_phone_b=111111111111111111111&no_shipping=1&item_name_1=Essential+x+1&quantity_1=1&amount_1=334&item_number_1=66
+2017-08-04T14:29:22+00:00 INFO Generating payment form for order 104. Notify URL: http://localhost/wordpress/index.php/wc-api/WC_Gateway_Paypal/
+2017-08-04T14:29:22+00:00 INFO PayPal Request Args for order 104: cmd=_cart&business=joselyn_0501%40hotmail.com&no_note=1&currency_code=USD&charset=utf-8&rm=1&upload=1&return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcheckout%2Forder-received%2F104%3Fkey%3Dwc_order_59838d5744458%26utm_nooverride%3D1&cancel_return=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fcarro%2F%3Fcancel_order%3Dtrue%26order%3Dwc_order_59838d5744458%26order_id%3D104%26redirect%26_wpnonce%3Da50c72356f&page_style=&image_url=&paymentaction=sale&bn=WooThemes_Cart&invoice=WC-104&custom=%7B%22order_id%22%3A104%2C%22order_key%22%3A%22wc_order_59838d5744458%22%7D&notify_url=http%3A%2F%2Flocalhost%2Fwordpress%2Findex.php%2Fwc-api%2FWC_Gateway_Paypal%2F&first_name=eded&last_name=eded&address1=edededed&address2=ededed&city=ededed&state=ededed&zip=1111111&country=VE&email=joselynmolina11%40gmail.com&night_phone_b=111111111111111111111&no_shipping=1&item_name_1=Essential+x+1&quantity_1=1&amount_1=299.97&item_number_1=104
+2017-10-16T07:52:45+00:00 INFO Subscription Request Parameters: Array
+(
+    [method] => POST
+    [uri] => https://api-3t.sandbox.paypal.com/nvp
+    [user-agent] => WooCommerce-Subscriptions-PayPal/2.2.12 (WooCommerce/3.0.8; WordPress/4.8.2)
+    [headers] => Array
+        (
+        )
+
+    [body] => Array
+(
+    [USER] => *****************************************
+    [PWD] => ****************
+    [SIGNATURE] => ********************************************************
+    [VERSION] => 124
+    [METHOD] => SetExpressCheckout
+    [L_BILLINGTYPE0] => MerchantInitiatedBillingSingleAgreement
+    [L_BILLINGAGREEMENTDESCRIPTION0] => Orders with proideal
+    [RETURNURL] => http://localhost/wordpress/index.php/wc-api/wcs_paypal/?action=reference_transaction_account_check
+    [CANCELURL] => http://localhost/wordpress/index.php/wc-api/wcs_paypal/?action=reference_transaction_account_check
+    [BRANDNAME] => proideal
+    [LANDINGPAGE] => Login
+    [NOSHIPPING] => 1
+    [MAXAMT] => 0.00
+)
+
+    [duration] => 19.19976s
+)
+
+2017-10-16T07:52:45+00:00 INFO Subscription Request Response: Array
+(
+    [code] => 200
+    [message] => OK
+    [headers] => Requests_Utility_CaseInsensitiveDictionary Object
+        (
+            [data:protected] => Array
+                (
+                    [date] => Mon, 16 Oct 2017 13:52:27 GMT
+                    [server] => Apache
+                    [x-slr-retry-api] => SetExpressCheckout
+                    [x-paypal-operation-name] => SetExpressCheckout
+                    [x-paypal-api-rc] => 
+                    [http_x_pp_az_locator] => sandbox.slc
+                    [paypal-debug-id] => 15b0cefa1402
+                    [set-cookie] => Array
+                        (
+                            [0] => X-PP-SILOVER=name%3DSANDBOX3.API.1%26silo_version%3D1880%26app%3Dappdispatcher_apit%26TIME%3D2914640985%26HTTP_X_PP_AZ_LOCATOR%3Dsandbox.slc; Expires=Mon, 16 Oct 2017 14:22:45 GMT; domain=.paypal.com; path=/; Secure; HttpOnly
+                            [1] => X-PP-SILOVER=; Expires=Thu, 01 Jan 1970 00:00:01 GMT
+                        )
+
+                    [content-length] => 133
+                    [content-type] => text/plain; charset=utf-8
+                )
+
+        )
+
+    [body] => Array
+(
+    [TOKEN] => EC-374246982K906821A
+    [TIMESTAMP] => 2017-10-16T13:52:45Z
+    [CORRELATIONID] => 15b0cefa1402
+    [ACK] => Success
+    [VERSION] => 124
+    [BUILD] => 39972400
+)
+
+)
+

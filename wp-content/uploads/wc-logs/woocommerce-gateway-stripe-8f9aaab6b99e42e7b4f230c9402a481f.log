@@ -1,0 +1,47 @@
+06-23-2017 @ 08:48:52 - Error: Unable to verify domain - missing secret key.
+06-23-2017 @ 08:49:07 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:49:07 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:49:14 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:49:14 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:53:06 - Error: Unable to verify domain - missing secret key.
+06-23-2017 @ 08:53:17 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:53:17 - Apple Pay: Apple Pay not enabled or Stripe is not an available gateway ( Apple Pay button disabled )
+06-23-2017 @ 08:57:17 - Error: Unable to verify domain - missing secret key.
+06-23-2017 @ 09:14:36 - Error: Unable to verify domain - missing secret key.
+06-23-2017 @ 09:14:43 - Error: Unable to verify domain - cURL error 28: Resolving timed out after 5673 milliseconds
+06-23-2017 @ 09:18:32 - Info: Begin processing payment for order 16 for the amount of 3236.88
+06-23-2017 @ 09:18:32 - charges request: Array
+(
+    [currency] => usd
+    [amount] => 323688
+    [description] => proideal - Order 16
+    [capture] => true
+    [expand[]] => balance_transaction
+    [metadata] => Array
+        (
+            [Customer Name] => eded eded
+            [Customer Email] => joselynmolina11@gmail.com
+        )
+
+    [source] => tok_1AXtY8LsbKkKYWOTHt3DYDSq
+)
+
+06-23-2017 @ 09:18:42 - Error Response: WP_Error Object
+(
+    [errors] => Array
+        (
+            [http_request_failed] => Array
+                (
+                    [0] => cURL error 28: Resolving timed out after 10518 milliseconds
+                )
+
+        )
+
+    [error_data] => Array
+        (
+        )
+
+)
+
+06-23-2017 @ 09:18:43 - Error: There was a problem connecting to the payment gateway.
+06-23-2017 @ 09:19:50 - Your domain has been verified with Apple Pay!

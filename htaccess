@@ -1,0 +1,15 @@
+# BEGIN WordPress
+<IfModule mod_rewrite.c>
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^localhost/wordpress [NC]
+RewriteRule ^(.*)$ http://floridakarateclubs.com/fkc/$1 [L,R=301]
+RedirectMatch 301 ^/fkc/(.*)$ http://floridakarateclubs.com/fkc/$1
+</IfModule>
+
+# END WordPress
+
+
+
+
+

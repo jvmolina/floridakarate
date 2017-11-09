@@ -1,0 +1,147 @@
+/*
+ Theme Name:  Alante Business
+ Theme URI:   http://www.thinkupthemes.com/free/alante/
+ Description: Alante Business is the free version of the multi-purpose professional theme (Alante Pro) ideal for a business or blog website. The theme has a responsive layout, HD retina ready and comes with a powerful theme options panel with can be used to make awesome changes without touching any code. The theme also comes with a full width easy to use slider. Easily add a logo to your site and create a beautiful homepage using the built-in homepage layout.
+ Author:      Think Up Themes
+ Author URI:  http://www.thinkupthemes.com
+ Template:    alante
+ Version:     1.0.1
+ License:     GNU General Public License
+ License URI: /licenses/license.txt
+ Tags:        one-column, two-columns, three-columns, right-sidebar, left-sidebar, custom-header, custom-menu, full-width-template, theme-options, threaded-comments, featured-images, post-formats, sticky-post, translation-ready, flexible-header, custom-background, grid-layout, footer-widgets, blog, e-commerce, photography, rtl-language-support
+ Text Domain: alante-business
+*/
+
+/* Services */
+.services-builder.style1 .iconmain .iconurl a {
+	display: inline-block;
+	color: #fff;
+	background: #D33D33;
+	padding: 3px 15px;
+	margin-top: 5px;
+}
+.services-builder.style1 .iconmain .iconurl a:hover {
+	opacity: 0.8 !important;
+	color: #fff;
+}
+
+/* Pre Header */
+
+/* Header */
+
+/* Intro */
+#intro.option1 {
+	border-left: none;
+	border-right: none;
+}
+#intro .action-shadow {
+	display: none;
+}
+
+/* Blog */
+.blog-article {
+	overflow: hidden;
+	background: #fafafa;
+	margin-bottom: 15px;
+}
+.blog-article .comment {
+	float: none;
+}
+.blog-article .entry-footer {
+	background: #fff;
+    border-top: 1px solid #DDD;
+	-webkit-box-shadow: 0 20px 0 0 #fff;
+	-moz-box-shadow: 0 20px 0 0 #fff;
+	-ms-box-shadow: 0 20px 0 0 #fff;
+	-o-box-shadow: 0 20px 0 0 #fff;
+	box-shadow: 0 20px 0 0 #fff;
+}
+.blog-article .entry-footer .entry-meta {
+	border: none;
+}
+.blog-article .more-link span {
+	color: #fff;
+	background: #D33D33;
+	padding: 5px 12px;
+}
+.blog-article .more-link a:hover {
+	opacity: 0.8;
+}
+.blog-article .more-link a:hover span {
+	right: 0;
+}
+.blog-article .more-link i {
+	display: none !important;
+}
+
+/* Post Navigation */
+.nav-previous a,
+.nav-next a {
+	background: #fff;
+}
+.nav-previous a:hover .meta-nav,
+.nav-next a:hover .meta-nav {
+	padding: 0;
+}
+.nav-previous a .meta-icon,
+.nav-next a .meta-icon {
+	display: none;
+}
+
+/* Author Bio */
+#author-bio {
+	background: #fff;
+}
+#author-bio img {
+	background: none;
+	border: none;
+	padding: 0;
+}
+
+/* Posts & Pages */
+
+/* Pagination */
+.navigation.pagination .nav-links a,
+.navigation.pagination .nav-links span {
+	color: #fff;
+	border: 1px solid #333;
+	background: #333;
+}
+.navigation.pagination .nav-links .dots {
+	vertical-align: bottom;
+	line-height: 30px;
+}	
+.navigation.pagination .nav-links .dots,
+.navigation.pagination .nav-links .dots:hover {
+	background: #fff;
+	border-color: #fff;
+}
+
+/* Sidebars */
+#sidebar h3.widget-title {
+	padding-bottom: 0;
+}
+#sidebar h3.widget-title:after {
+	display: none;
+}
+#sidebar .widget ul {
+	background: #fafafa;
+}
+#sidebar .widget li a {
+	vertical-align: inherit;
+	padding-right: 5px;
+}
+
+/* Footer */
+#footer-core h3 {
+	text-transform: none;
+    border-bottom: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    -ms-box-shadow: none;
+    -o-box-shadow: none;
+    box-shadow: none;
+}
+
+/* Responsive */
+

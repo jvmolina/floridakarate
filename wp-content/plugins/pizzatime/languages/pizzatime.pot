@@ -1,0 +1,531 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2017-03-01 18:27+0300\n"
+"PO-Revision-Date: 2017-03-01 18:27+0300\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: \n"
+"X-Generator: Eazy Po 0.9.5.3\n"
+
+#: includes/pizzatime-admin.php:392
+msgid "PizzaTime settings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:397 includes/pizzatime-admin.php:415
+msgid "Settings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:398 includes/pizzatime-functions.php:1254
+msgid "Sizes"
+msgstr ""
+
+#: includes/pizzatime-admin.php:399 includes/pizzatime-functions.php:1288
+msgid "Crusts"
+msgstr ""
+
+#: includes/pizzatime-admin.php:400 includes/pizzatime-functions.php:1327
+msgid "Sauces"
+msgstr ""
+
+#: includes/pizzatime-admin.php:401 includes/pizzatime-functions.php:1377
+msgid "Cheeses"
+msgstr ""
+
+#: includes/pizzatime-admin.php:402 includes/pizzatime-functions.php:1424
+msgid "Meats"
+msgstr ""
+
+#: includes/pizzatime-admin.php:403 includes/pizzatime-functions.php:1466
+msgid "Toppings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:404 includes/pizzatime-functions.php:1507
+msgid "Dressings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:405
+msgid "Pizza presets"
+msgstr ""
+
+#: includes/pizzatime-admin.php:406
+msgid "Custom sections"
+msgstr ""
+
+#: includes/pizzatime-admin.php:416
+msgid ""
+"In  <a target=\"_blank\" href=\"https://youtu.be/p4oN8wmmEPE\">this video</"
+"a> you can see how to set up a PizzaTime product."
+msgstr ""
+
+#: includes/pizzatime-admin.php:419
+msgid "Color scheme"
+msgstr ""
+
+#: includes/pizzatime-admin.php:428 includes/pizzatime-admin.php:1568
+#: includes/pizzatime-admin.php:1573
+msgid ""
+"Buy <a href=\"https://secure.avangate.com/order/checkout.php?"
+"PRODS=4701306&QTY=1&CART=1&CARD=1\">PRO</a> to unlock!"
+msgstr ""
+
+#: includes/pizzatime-admin.php:433
+msgid "Maximum number of ingredients"
+msgstr ""
+
+#: includes/pizzatime-admin.php:436
+msgid ""
+"Maximum number of ingredients that can be selected (meats, toppings). Empty "
+"field - no limit."
+msgstr ""
+
+#: includes/pizzatime-admin.php:440
+msgid "Price multiplier sections"
+msgstr ""
+
+#: includes/pizzatime-admin.php:455
+msgid ""
+"Sections where the price multiplier should work. The multiplier value is set "
+"on the sizes tab."
+msgstr ""
+
+#: includes/pizzatime-admin.php:459
+msgid "Adjust pizza position on scroll"
+msgstr ""
+
+#: includes/pizzatime-admin.php:462 includes/pizzatime-admin.php:472
+#: includes/pizzatime-admin.php:482 includes/pizzatime-admin.php:491
+#: includes/pizzatime-admin.php:501 includes/pizzatime-admin.php:511
+#: includes/pizzatime-admin.php:521 includes/pizzatime-admin.php:531
+#: includes/pizzatime-admin.php:541 includes/pizzatime-admin.php:590
+#: includes/pizzatime-admin.php:697 includes/pizzatime-admin.php:789
+#: includes/pizzatime-admin.php:817 includes/pizzatime-admin.php:851
+#: includes/pizzatime-admin.php:937 includes/pizzatime-admin.php:963
+#: includes/pizzatime-admin.php:996 includes/pizzatime-admin.php:1100
+#: includes/pizzatime-admin.php:1114 includes/pizzatime-admin.php:1140
+#: includes/pizzatime-admin.php:1151 includes/pizzatime-admin.php:1262
+#: includes/pizzatime-admin.php:1275 includes/pizzatime-admin.php:1303
+#: includes/pizzatime-admin.php:1313 includes/pizzatime-admin.php:1425
+#: includes/pizzatime-admin.php:1438 includes/pizzatime-admin.php:1465
+#: includes/pizzatime-admin.php:1475
+msgid "Yes"
+msgstr ""
+
+#: includes/pizzatime-admin.php:463 includes/pizzatime-admin.php:473
+#: includes/pizzatime-admin.php:483 includes/pizzatime-admin.php:492
+#: includes/pizzatime-admin.php:502 includes/pizzatime-admin.php:512
+#: includes/pizzatime-admin.php:522 includes/pizzatime-admin.php:532
+#: includes/pizzatime-admin.php:542 includes/pizzatime-admin.php:591
+#: includes/pizzatime-admin.php:698 includes/pizzatime-admin.php:790
+#: includes/pizzatime-admin.php:818 includes/pizzatime-admin.php:852
+#: includes/pizzatime-admin.php:938 includes/pizzatime-admin.php:964
+#: includes/pizzatime-admin.php:997 includes/pizzatime-admin.php:1101
+#: includes/pizzatime-admin.php:1115 includes/pizzatime-admin.php:1141
+#: includes/pizzatime-admin.php:1152 includes/pizzatime-admin.php:1263
+#: includes/pizzatime-admin.php:1276 includes/pizzatime-admin.php:1304
+#: includes/pizzatime-admin.php:1314 includes/pizzatime-admin.php:1426
+#: includes/pizzatime-admin.php:1439 includes/pizzatime-admin.php:1466
+#: includes/pizzatime-admin.php:1476
+msgid "No"
+msgstr ""
+
+#: includes/pizzatime-admin.php:469
+msgid "Show reviews/description section"
+msgstr ""
+
+#: includes/pizzatime-admin.php:479
+msgid "Show sizes"
+msgstr ""
+
+#: includes/pizzatime-admin.php:488
+msgid "Show crusts"
+msgstr ""
+
+#: includes/pizzatime-admin.php:498
+msgid "Show sauces"
+msgstr ""
+
+#: includes/pizzatime-admin.php:508
+msgid "Show cheeses"
+msgstr ""
+
+#: includes/pizzatime-admin.php:518
+msgid "Show meats"
+msgstr ""
+
+#: includes/pizzatime-admin.php:528
+msgid "Show toppings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:538
+msgid "Show dressings"
+msgstr ""
+
+#: includes/pizzatime-admin.php:548
+msgid "Load Everywhere"
+msgstr ""
+
+#: includes/pizzatime-admin.php:552
+msgid ""
+"Enable if you need to load PizzaTime css and js files on all pages of the "
+"site. This is needed for product_page shortcode."
+msgstr ""
+
+#: includes/pizzatime-admin.php:559 includes/pizzatime-admin.php:668
+#: includes/pizzatime-admin.php:774 includes/pizzatime-admin.php:923
+#: includes/pizzatime-admin.php:1070 includes/pizzatime-admin.php:1233
+#: includes/pizzatime-admin.php:1398 includes/pizzatime-admin.php:1559
+msgid "Save Changes"
+msgstr ""
+
+#: includes/pizzatime-admin.php:587 includes/pizzatime-admin.php:694
+#: includes/pizzatime-admin.php:814 includes/pizzatime-admin.php:960
+#: includes/pizzatime-admin.php:1097 includes/pizzatime-admin.php:1259
+#: includes/pizzatime-admin.php:1422
+msgid "Enabled"
+msgstr ""
+
+#: includes/pizzatime-admin.php:595
+msgid "Remove size"
+msgstr ""
+
+#: includes/pizzatime-admin.php:601 includes/pizzatime-admin.php:707
+#: includes/pizzatime-admin.php:827 includes/pizzatime-admin.php:973
+msgid "Default"
+msgstr ""
+
+#: includes/pizzatime-admin.php:608
+msgid "Size"
+msgstr ""
+
+#: includes/pizzatime-admin.php:617 includes/pizzatime-admin.php:720
+#: includes/pizzatime-admin.php:840 includes/pizzatime-admin.php:985
+#: includes/pizzatime-admin.php:1128 includes/pizzatime-admin.php:1291
+#: includes/pizzatime-admin.php:1454
+msgid "Description"
+msgstr ""
+
+#: includes/pizzatime-admin.php:624 includes/pizzatime-admin.php:747
+#: includes/pizzatime-admin.php:896 includes/pizzatime-admin.php:1041
+#: includes/pizzatime-admin.php:1199 includes/pizzatime-admin.php:1363
+#: includes/pizzatime-admin.php:1522
+msgid "Photo"
+msgstr ""
+
+#: includes/pizzatime-admin.php:636 includes/pizzatime-admin.php:729
+#: includes/pizzatime-admin.php:862 includes/pizzatime-admin.php:1005
+#: includes/pizzatime-admin.php:1160 includes/pizzatime-admin.php:1324
+#: includes/pizzatime-admin.php:1485
+msgid "Price"
+msgstr ""
+
+#: includes/pizzatime-admin.php:643
+msgid "Ingredient price multiplier"
+msgstr ""
+
+#: includes/pizzatime-admin.php:649 includes/pizzatime-admin.php:756
+#: includes/pizzatime-admin.php:905 includes/pizzatime-admin.php:1050
+#: includes/pizzatime-admin.php:1215 includes/pizzatime-admin.php:1380
+#: includes/pizzatime-admin.php:1541
+msgid "Sort order"
+msgstr ""
+
+#: includes/pizzatime-admin.php:663
+msgid "Add size"
+msgstr ""
+
+#: includes/pizzatime-admin.php:701
+msgid "Remove crust"
+msgstr ""
+
+#: includes/pizzatime-admin.php:713 includes/pizzatime-admin.php:834
+#: includes/pizzatime-admin.php:979 includes/pizzatime-admin.php:1122
+#: includes/pizzatime-admin.php:1284 includes/pizzatime-admin.php:1447
+msgid "Name"
+msgstr ""
+
+#: includes/pizzatime-admin.php:736 includes/pizzatime-admin.php:876
+#: includes/pizzatime-admin.php:1021 includes/pizzatime-admin.php:1176
+#: includes/pizzatime-admin.php:1340 includes/pizzatime-admin.php:1501
+msgid "Image"
+msgstr ""
+
+#: includes/pizzatime-admin.php:742 includes/pizzatime-admin.php:882
+#: includes/pizzatime-admin.php:892 includes/pizzatime-admin.php:1027
+#: includes/pizzatime-admin.php:1037 includes/pizzatime-admin.php:1182
+#: includes/pizzatime-admin.php:1195 includes/pizzatime-admin.php:1346
+#: includes/pizzatime-admin.php:1359 includes/pizzatime-admin.php:1507
+#: includes/pizzatime-admin.php:1518
+msgid "The image has to be a transparent 600x600px PNG file."
+msgstr ""
+
+#: includes/pizzatime-admin.php:769
+msgid "Add crust"
+msgstr ""
+
+#: includes/pizzatime-admin.php:786 includes/pizzatime-admin.php:934
+msgid "Required"
+msgstr ""
+
+#: includes/pizzatime-admin.php:821
+msgid "Remove sauce"
+msgstr ""
+
+#: includes/pizzatime-admin.php:848 includes/pizzatime-admin.php:993
+#: includes/pizzatime-admin.php:1137 includes/pizzatime-admin.php:1300
+#: includes/pizzatime-admin.php:1462
+msgid "Has extra portion"
+msgstr ""
+
+#: includes/pizzatime-admin.php:869 includes/pizzatime-admin.php:1012
+#: includes/pizzatime-admin.php:1167 includes/pizzatime-admin.php:1331
+#: includes/pizzatime-admin.php:1492
+msgid "Extra portion price"
+msgstr ""
+
+#: includes/pizzatime-admin.php:886 includes/pizzatime-admin.php:1031
+#: includes/pizzatime-admin.php:1189 includes/pizzatime-admin.php:1353
+#: includes/pizzatime-admin.php:1512
+msgid "Extra portion image"
+msgstr ""
+
+#: includes/pizzatime-admin.php:918
+msgid "Add sauce"
+msgstr ""
+
+#: includes/pizzatime-admin.php:967
+msgid "Remove cheese"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1065
+msgid "Add cheese"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1104
+msgid "Remove meat"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1111 includes/pizzatime-admin.php:1272
+#: includes/pizzatime-admin.php:1435
+msgid "Is ingredient"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1117 includes/pizzatime-admin.php:1278
+#: includes/pizzatime-admin.php:1441
+msgid ""
+"Consider this an ingredient when checking the maximum number of ingredients."
+msgstr ""
+
+#: includes/pizzatime-admin.php:1148 includes/pizzatime-admin.php:1310
+#: includes/pizzatime-admin.php:1472
+msgid "Has left/right parts"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1208 includes/pizzatime-admin.php:1373
+#: includes/pizzatime-admin.php:1534
+msgid "Layer"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1211 includes/pizzatime-admin.php:1376
+#: includes/pizzatime-admin.php:1537
+msgid "The higher the number the higher the layer."
+msgstr ""
+
+#: includes/pizzatime-admin.php:1228
+msgid "Add meat"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1266
+msgid "Remove topping"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1393
+msgid "Add topping"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1429
+msgid "Remove dressing"
+msgstr ""
+
+#: includes/pizzatime-admin.php:1554
+msgid "Add dressing"
+msgstr ""
+
+#: includes/pizzatime-functions.php:26 includes/pizzatime-functions.php:1653
+msgid "Ingredients"
+msgstr ""
+
+#: includes/pizzatime-functions.php:84
+msgid "Small size"
+msgstr ""
+
+#: includes/pizzatime-functions.php:85
+msgid "6 slices"
+msgstr ""
+
+#: includes/pizzatime-functions.php:94
+msgid "Medium size"
+msgstr ""
+
+#: includes/pizzatime-functions.php:95
+msgid "8 slices"
+msgstr ""
+
+#: includes/pizzatime-functions.php:104
+msgid "Large size"
+msgstr ""
+
+#: includes/pizzatime-functions.php:105
+msgid "10 slices"
+msgstr ""
+
+#: includes/pizzatime-functions.php:141
+msgid "Regular Crust"
+msgstr ""
+
+#: includes/pizzatime-functions.php:183
+msgid "Tomato Sauce"
+msgstr ""
+
+#: includes/pizzatime-functions.php:197
+msgid "Pesto Sauce"
+msgstr ""
+
+#: includes/pizzatime-functions.php:211 includes/pizzatime-functions.php:674
+msgid "BBQ Sauce"
+msgstr ""
+
+#: includes/pizzatime-functions.php:225
+msgid "Salsa Sauce"
+msgstr ""
+
+#: includes/pizzatime-functions.php:272
+msgid "Mozzarella"
+msgstr ""
+
+#: includes/pizzatime-functions.php:286
+msgid "Gorgonzola"
+msgstr ""
+
+#: includes/pizzatime-functions.php:334
+msgid "Pepperoni"
+msgstr ""
+
+#: includes/pizzatime-functions.php:351
+msgid "Shrimp"
+msgstr ""
+
+#: includes/pizzatime-functions.php:368
+msgid "Ham"
+msgstr ""
+
+#: includes/pizzatime-functions.php:385
+msgid "Chicken"
+msgstr ""
+
+#: includes/pizzatime-functions.php:402
+msgid "Steak"
+msgstr ""
+
+#: includes/pizzatime-functions.php:419
+msgid "Bacon"
+msgstr ""
+
+#: includes/pizzatime-functions.php:436
+msgid "Beef"
+msgstr ""
+
+#: includes/pizzatime-functions.php:487
+msgid "Tomatoes"
+msgstr ""
+
+#: includes/pizzatime-functions.php:504
+msgid "Spinach"
+msgstr ""
+
+#: includes/pizzatime-functions.php:521
+msgid "Mushrooms"
+msgstr ""
+
+#: includes/pizzatime-functions.php:537
+msgid "Green Peppers"
+msgstr ""
+
+#: includes/pizzatime-functions.php:554
+msgid "Red Peppers"
+msgstr ""
+
+#: includes/pizzatime-functions.php:571
+msgid "Onions"
+msgstr ""
+
+#: includes/pizzatime-functions.php:588
+msgid "Black Olives"
+msgstr ""
+
+#: includes/pizzatime-functions.php:605
+msgid "Pineapples"
+msgstr ""
+
+#: includes/pizzatime-functions.php:622
+msgid "Corn"
+msgstr ""
+
+#: includes/pizzatime-functions.php:691
+msgid "Hot Sauce"
+msgstr ""
+
+#: includes/pizzatime-functions.php:708
+msgid "Ranch Dressing"
+msgstr ""
+
+#: includes/pizzatime-functions.php:942 includes/pizzatime-functions.php:1766
+msgid "Left"
+msgstr ""
+
+#: includes/pizzatime-functions.php:943 includes/pizzatime-functions.php:1769
+msgid "Right"
+msgstr ""
+
+#: includes/pizzatime-functions.php:944 includes/pizzatime-functions.php:1368
+#: includes/pizzatime-functions.php:1415 includes/pizzatime-functions.php:1458
+#: includes/pizzatime-functions.php:1499 includes/pizzatime-functions.php:1542
+#: includes/pizzatime-functions.php:1777
+msgid "Extra"
+msgstr ""
+
+#: includes/pizzatime-functions.php:1084 includes/pizzatime-functions.php:1085
+msgid "PizzaTime Product"
+msgstr ""
+
+#: includes/pizzatime-functions.php:1367 includes/pizzatime-functions.php:1414
+#: includes/pizzatime-functions.php:1457 includes/pizzatime-functions.php:1498
+#: includes/pizzatime-functions.php:1541
+msgid "Regular"
+msgstr ""
+
+#: includes/pizzatime-functions.php:1652
+msgid "Reset"
+msgstr ""
+
+#: includes/pizzatime-functions.php:1712
+msgid ""
+"PHP gd extenstion is not loaded. Please enable it to be able to see pizza "
+"thumbnails in the shopping cart."
+msgstr ""
+
+#: woocommerce/single-product/product-image20.php:42
+#: woocommerce/single-product/product-image263.php:47
+msgid "Placeholder"
+msgstr ""

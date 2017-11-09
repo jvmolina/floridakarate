@@ -1,0 +1,280 @@
+.main-navigation-container {
+	float: right;
+	position: relative;
+
+	@media #{$small-only} {
+		float: none;
+	}
+}
+
+.main-navigation {
+	@include container($container-size);
+
+	display: none;
+
+	&.open {
+		display: block;
+		border-top: 1px solid rgba(0, 0, 0, 0.1);
+
+		@media #{$small-only} {
+			position: absolute;
+			top: 0;
+			left: 0;
+			right: 0;
+			z-index: 9999;
+		}
+	}
+
+	.expand {
+		font-size: 1.8rem;
+		position: absolute;
+		right: 0;
+		top: 0;
+		padding: 21px 0;
+		width: 50px;
+		line-height: 1;
+		text-align: center;
+		border-bottom: none;
+		border-left: 1px solid rgba(0, 0, 0, 0.1);
+		text-indent: 0;
+
+		&:before {
+			content: "+";
+		}
+
+		@media #{$medium-up} {
+			display: none;
+		}
+	}
+
+	.menu-item-has-children {
+		position: relative;
+
+		&.open > .expand:before {
+			content: "-";
+		}
+	}
+
+	@media #{$medium-up} {
+		display: block;
+	}
+
+	.menu-main-menu-container {
+		@media #{$medium-up} {
+			float: left;
+			margin-left: 25px;
+		}
+	}
+
+	li li {
+		text-indent: 1rem;
+	}
+
+	li li li {
+		text-indent: 1.5rem;
+	}
+
+	li li a {
+		padding-top: 1.2em;
+		padding-bottom: 1.2em;
+		border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+	}
+
+	li {
+		@media #{$medium-up} {
+			position: relative;
+			float: left;
+		}
+	}
+
+	ul {
+		list-style: none;
+		margin: 0;
+		padding-left: 0;
+
+		a {
+			color: $header-textcolor;
+		}
+
+		@media #{$small-only} {
+
+			.open > .sub-menu {
+				display: block;
+			}
+		}
+
+		ul {
+			z-index: 99999;
+			background-color: $menu-background-color;
+
+			@media #{$small-only} {
+				display: none;
+			}
+
+			@media #{$medium-up} {
+				position: absolute;
+				left: -999em;
+				box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
+
+				ul {
+					left: -999em;
+					top: 0;
+				}
+
+				li {
+					&:hover > ul,
+					&.focus > ul {
+						left: 100%;
+					}
+				}
+
+				a {
+					width: 200px;
+				}
+			}
+		}
+
+		li:hover > ul,
+		li.focus > ul {
+			left: auto;
+		}
+	}
+
+	a {
+		display: block;
+		text-decoration: none;
+		padding: calc(2em + 1px) 1em 2em;
+		color: $header-textcolor;
+
+		@media #{$small-only} {
+			border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+			padding-top: 1.2em;
+			padding-bottom: 1.2em;
+		}
+	}
+
+	.current_page_item > a,
+	.current-menu-item > a,
+	.current_page_ancestor > a,
+	.current_page_parent > a,
+	.current-menu-ancestor > a {
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.sub-menu .menu-item-has-children > a::after {
+		position: absolute;
+		content: "";
+		width: 0;
+		height: 0;
+		right: 10px;
+		top: 50%;
+		border-bottom: 7px solid transparent;
+		border-top: 7px solid transparent;
+		border-left: 7px solid $header-textcolor;
+		transform: translateY(-50%);
+		display: none;
+
+		@media #{$medium-up} {
+			display: inline;
+		}
+	}
+}
+
+.navigation.pagination {
+	clear: both;
+	margin: 0 0 1.5em;
+
+	.nav-links {
+		text-align: center;
+
+		.page-numbers {
+			display: inline-block;
+			border: none;
+			border-radius: 3px;
+			line-height: 1;
+			margin: 0 0.25em;
+			padding: 0.5em 0.75em;
+			white-space: nowrap;
+
+			&.dots {
+				background: none;
+			}
+
+			&.current {
+				color: $base-background-color;
+				background-color: $link-color;
+			}
+		}
+	}
+
+	.paging-nav-text {
+		display: none;
+	}
+
+	@media #{$small-only} {
+
+		.paging-nav-text {
+			display: inline-block;
+			font-size: 0.9rem;
+			font-weight: normal;
+			color: $main-text-color;
+		}
+
+		.nav-links {
+			float: right;
+
+			.page-numbers {
+				&:not(.prev, .next) {
+					display: none;
+				}
+			}
+		}
+	}
+}
+
+body.no-max-width .main-navigation {
+	max-width: none;
+}
+
+.menu-toggle {
+	width: 4rem;
+	padding: 0.3rem;
+	cursor: pointer;
+	position: absolute;
+	z-index: 9999;
+	display: none;
+	top: -82px;
+	right: 0;
+	display: block;
+	z-index: 99999;
+
+	@media #{$medium-up} {
+		display: none;
+	}
+
+	div {
+		background-color: $header-textcolor;
+		margin: 0.43rem .86rem 0.43rem 0;
+		transform: rotate(0deg);
+		transition: .15s ease-in-out;
+		transform-origin: left center;
+		height: 0.45rem;
+	}
+
+	&.open {
+		div {
+			&:nth-child(1) {
+				transform: rotate(45deg);
+			}
+
+			&:nth-child(2) {
+				width: 0%;
+				opacity: 0;
+			}
+
+			&:nth-child(3) {
+				transform: rotate(-45deg);
+			}
+		}
+	}
+}
